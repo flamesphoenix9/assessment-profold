@@ -1,0 +1,18 @@
+module.exports = {
+  BAD_REQLINE: 'Reqline is not valid',
+  HTTP_MISSING: 'Missing required HTTP keyword',
+  URL_MISSING: 'Missing required URL keyword',
+  INVALID_HTTP_METHOD: 'Invalid HTTP method. Only GET and POST are supported',
+  INVALID_VALUE: 'Invalid value detected',
+  INVALID_URL: 'URL is not valid',
+  METHOD_NOT_UPPERCASE: 'HTTP method must be uppercase',
+  INVALID_SPACING: 'Invalid spacing around reqline',
+  INVALID_HEADER_JSON: 'Invalid JSON format in HEADERS section',
+  INVALID_QUERY_JSON: 'Invalid JSON format in QUERY section',
+  INVALID_BODY_JSON: 'Invalid JSON format in BODY section',
+  INVALID_CASE: 'Keywords must be uppercase',
+  NO_KEYWORD_SPACE: 'Missing space after keyword',
+  MULTIPLE_SPACING_AROUND_PIPE: 'Multiple spaces found where single space expected',
+  INVALID_KEYWORD: 'Invalid keyword',
+  DUPLICATE_KEY: 'Duplicate detected',
+};
